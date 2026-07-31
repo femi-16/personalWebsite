@@ -1,0 +1,192 @@
+body {
+    background-color: #172d13;
+    margin-top: 105px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    text-wrap: nowrap;
+    background-color: #e3e6da;
+    margin: 0px;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#aboutme_BIO{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#year{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+#class{
+    border: 3px solid rgb(51, 87, 54);
+    border-radius: 10px;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+#card-extracurricular{
+    width: 50%;
+    height: auto;
+}
+#extracurricularvideo{
+    border: 3px solid rgb(218, 208, 192);
+    border-radius: 50px;
+}
+
+.class_container{
+    
+    flex-direction: column;
+    
+}
+.header_element_link {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 5%;
+    margin-left: 5px;
+}
+
+
+.header_element{
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+#header_aboutMe{
+    margin-left: 5px;
+    background-color: #a08a8a;
+    font-size: medium;
+    border: 3px solid #333;
+    border-radius: 0px;
+}
+#header_categories{
+    background-color: #a08a8aa9;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid #333;
+    justify-content: center;
+    height: auto;
+}
+
+#pfp{
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 5px;
+    height: 70px;
+    padding: 0px;
+    border: 2px solid darkolivegreen;
+}
+
+.header_element:hover{
+    background-color: rgb(211, 205, 205);
+    opacity: .8;
+}
+
+.card{
+    width: 33%;
+    margin: auto;
+    padding: 25px;
+    border-left: 2px solid #97e440;
+    border-right: 2px solid #97e440;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: border 500ms;
+    background-color: #37682f;
+}
+
+#cardimg{
+    width: 55%;
+}
+
+.card:hover{
+    border-top: 2px solid #97e440;
+    border-bottom: 2px solid #97e440;
+    
+}
+
+.card_container{
+    justify-content: space-between;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contact_div{
+    margin-top: 5%;
+    width: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    display: flex;
+    font-weight: lighter;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact-images{
+    width: 200px;
+    height: 200px;
+    border: 2px solid lightgreen;
+    border-radius: 50%;
+}
+
+#contact_card{
+    width: 50%;
+    height: auto;
+}
+
+#contact_div_container{
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #3252232d;
+}
+
+#back_top {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.btn-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+}
+
+.github-btn {
+  display: none;
+  margin: 0.5rem;
+  cursor: pointer;
+}
